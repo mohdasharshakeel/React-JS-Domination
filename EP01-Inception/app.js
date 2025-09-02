@@ -1,4 +1,4 @@
-const parent = React.createElement("div", {id:"parent"}, React.createElement("div", {id:'child'}, React.createElement('h1', {},"i am child tag")))
+const parent = React.createElement("div", { id: "parent" }, React.createElement("div", { id: 'child' }, React.createElement('h1', {}, "i am child tag")))
 
 console.log(parent);
 
