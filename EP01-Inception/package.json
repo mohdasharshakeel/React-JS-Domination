@@ -2,11 +2,7 @@
   "name": "ep01-inception",
   "version": "1.0.0",
   "description": "this is react course",
-  "keywords": [
-    "react",
-    "react",
-    "course"
-  ],
+
   "repository": {
     "type": "git",
     "url": "(https://github.com/mohdasharshakeel/React-JS-Domination)"
