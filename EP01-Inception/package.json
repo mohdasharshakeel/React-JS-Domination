@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "author": "Mohd Ashar Shakeel",
-  "type": "commonjs",
+  "type": "module",
   "main": "app.js",
   "scripts": {
     "test": "jest"
