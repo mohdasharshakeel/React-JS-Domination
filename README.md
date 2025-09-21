@@ -24,3 +24,5 @@ React In-deapth course
 - Tree Shaking
 - remove unused code
 
+Episode 03 started
+
