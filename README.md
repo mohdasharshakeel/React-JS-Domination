@@ -26,3 +26,5 @@ React In-deapth course
 
 Episode 03 started
 
+yes we can write react without JSX 
+
