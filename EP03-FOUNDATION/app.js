@@ -1,9 +1,27 @@
 import React from "react";
-import ReactDOM from "react-dom/client"
+import ReactDOM from "react-dom/client";
 
-//ELement react.createElement  ==> object ==> HTMLElemt(render)
+// Element react.createElement ==> object ==> HTML element (render)
+const Header = () => {
+  return (
+    <div className="header">
+      <div>
+        <img
+          src="https://thumbs.dreamstime.com/b/food-delivery-logo-design-template-134749604.jpg"
+          alt="logo"
+        />
+      </div>
+    </div>
+  );
+};
 
+const AppLayout = () => {
+  return (
+    <div className="app">
+      <Header />
+    </div>
+  );
+};
 
-const heading = React.createElement("h1", { id: "heading" }, "Labbaik ya rasool allah");
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(<AppLayout />);
